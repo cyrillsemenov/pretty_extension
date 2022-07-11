@@ -1,0 +1,24 @@
+{
+    "name": "Pretty Page",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {},
+    "description": "Makes sites prettier",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "commands": {
+        "run": {
+            "suggested_key": {
+              "default": "Ctrl+Shift+P",
+              "mac": "Command+Shift+P"
+            },
+            "description": "Run \"Pretty Page\" on the current page."
+        }
+    }
+  }

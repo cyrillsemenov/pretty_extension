@@ -1,0 +1,1 @@
+window.location.href=document.querySelector("iframe").attributes.src.value;

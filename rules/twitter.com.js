@@ -1,0 +1,1 @@
+window.location.href="https://publish.twitter.com/?query="+window.location.href;

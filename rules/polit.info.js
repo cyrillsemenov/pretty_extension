@@ -1,0 +1,6 @@
+let rules = [
+    {
+        sel: "",
+        func: ""
+    }
+]
