@@ -1,6 +1,6 @@
 let rules = [
     {
-        sel: "",
-        func: ""
+        sel: ".rtb-wrapper,.header__links,.social",
+        func: "deleteAll"
     }
 ]
